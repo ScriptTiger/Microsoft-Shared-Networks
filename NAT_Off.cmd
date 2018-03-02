@@ -13,5 +13,5 @@ set PS=%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\powershell.exe
 rem Name of NAT object
 set NAT=Internal
 
-rem Command to enable the NAT object for the internal network
+rem Command to remove the NAT object for the internal network
 %PS% remove-netnat %NAT%
